@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo-list</title>
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        #set{
+            margin: 5px;
+            font-size: 22px;
+        }
+        #input{
+            height: 40px;
+            width: 60vw;
+            padding: 2px;
+            letter-spacing: 1px;
+            font-size: 17px;
+        }
+        #press{
+            height: 8.2vh;
+            width: 60px;
+            padding: 2px;
+            letter-spacing: 2px;
+            font-size: 17px;
+            color: white;
+            background-color: rgb(17, 85, 124);
+            
+        }
+        #center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            
+        }
+        #div{
+            display: flex;
+            justify-content: center;
+            
+        }
+        #show1{
+            font-size: 18px;
+            color: white;
+            letter-spacing: 1px;
+            background-color: green;
+        }
+        #butt1{
+            position: fixed;
+            top: 200px;
+            left: 250px;
+            height: 60px;
+            width: 90px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>Tudo List</h1>
+    <div id="center">
+        <input type="text" id="input" placeholder="Enter your hobbies">
+        <button id="press" onclick="task()">Add</button>
+        
+    </div>
+    <div id="div">
+        <ol id="detail"></ol>
+    </div>
+    
+  
+
+    <script src="index.js"></script>
+</body>
+</html>
